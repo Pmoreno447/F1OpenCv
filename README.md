@@ -1,8 +1,11 @@
 # 🏎️ F1OpenCv — Detector de Límites de Pista
 
-Aplicación de escritorio que utiliza **OpenCV** para visión por computador y una interfaz gráfica construida con **CustomTkinter**.
+Aplicación de escritorio que utiliza **OpenCV** para determinar limites de pista en un circuito utilizando visión por computador. Cuenta con una interfaz gráfica construida con **CustomTkinter**.
 
 Actualmente el sistema trabaja con vídeos de prueba, aunque puede adaptarse fácilmente para usar una cámara fija (requisito esencial: **la cámara debe permanecer completamente estática**).
+<img width="1195" height="727" alt="image" src="https://github.com/user-attachments/assets/519eb1ac-6af9-47c8-a1ec-bd4ffd4197b3" />
+
+<img width="892" height="679" alt="image" src="https://github.com/user-attachments/assets/e7edb03e-af5f-48bf-89cd-751a816a8a07" />
 
 ---
 

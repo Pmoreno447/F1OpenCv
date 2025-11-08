@@ -9,7 +9,7 @@ from Detector import DetectorDeVideo # Importa la clase gestora del otro archivo
 # --- CONFIGURACIÓN DE APARIENCIA (Placeholder) ---
 PLACEHOLDER_COLOR = "gray40" 
 
-# Definición de la fuente (usada solo para simulación)
+
 try:
     # Intenta usar una fuente común de Windows
     DEFAULT_FONT = ImageFont.truetype("arial.ttf", 18)

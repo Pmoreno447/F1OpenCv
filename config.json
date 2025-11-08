@@ -1,0 +1,10 @@
+{
+    "UMBRAL_SALIDA": 5,
+    "_comment": "Define el % de coche que debe estar dentro de pista para que no se detecte sancion",
+
+    "UMBRAL_BG_SUB": 30,
+    "_comment": "Define la sensibilidad para la deteccion de movimiento. Si la diferencia de valor entre dos pixeles es mayor a 30 lo detecta como objeto en movimiento",
+
+    "UMBRAL_RUIDO_COCHE": 500,
+    "_comment": "Numero de pixeles minimos para que sea considerado un coche y no ruido"
+}

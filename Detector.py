@@ -17,8 +17,8 @@ def crear_mascara_pista(imagen_bgr):
     # --- 1. PARÁMETROS DE CALIBRACIÓN FIJOS ---
     lim_inf_pista = np.array([0, 0, 33])
     lim_sup_pista = np.array([180, 52, 124])
-    kernel_erosion_size = 4  # (Se convertirá en 5)
-    kernel_cierre_size = 10 # (Se convertirá en 11)
+    kernel_erosion_size = 4  
+    kernel_cierre_size = 10 
     
     # --- 2. Creación de la Máscara Inicial ---
     mascara_inicial = cv2.inRange(hsv, lim_inf_pista, lim_sup_pista)

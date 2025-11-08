@@ -17,7 +17,6 @@ def procesar_imagen_pista(ruta_imagen, ancho_max_ventana=800):
         print(f"Error: No se pudo cargar la imagen en {ruta_imagen}")
         return
 
-    # Reescalar
     altura, anchura = imagen_bgr.shape[:2]
     if anchura > ancho_max_ventana:
         escala = ancho_max_ventana / anchura

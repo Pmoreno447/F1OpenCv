@@ -6,7 +6,6 @@ Carga una imagen y nos permite determinar los valores
 del filtro de colorr HSV y el valor del erode.
 """
 
-# --- Función de 'callback' ---
 def nada(x):
     pass
 
